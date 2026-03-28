@@ -1,16 +1,13 @@
-
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Clock, Sparkles, DollarSign, Zap, Github, Twitter, Linkedin, Lock, History, Calendar, Users as UsersIcon, Trophy } from 'lucide-react';
 
-import EventPlanner from './EventPlanner';
+import { EventPlanner } from './EventPlanner';
 import WaitlistForm from './WaitlistForm';
 import PaymentModal from './PaymentModal';
 
 import { HostedEvent } from './types';
 import * as XLSX from 'xlsx';
-
-const features = [
   {
     icon: <Clock className="h-6 w-6" />,
     title: "5-Minute Planning",
