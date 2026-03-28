@@ -1,0 +1,7 @@
+{
+  "name": "Remix: Remix: Eventrova - Smart Event Planning",
+  "description": "An AI-powered event planning platform that helps you organize logistics, estimate budgets, and generate custom checklists in minutes.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
