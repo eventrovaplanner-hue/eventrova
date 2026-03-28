@@ -29,12 +29,12 @@
     "tailwindcss": "^4.2.2",
     "tsx": "^4.21.0",
     "xlsx": "^0.18.5"
+    "@vitejs/plugin-react": "^5.0.0",
+"typescript": "~5.8.2",
+"vite": "^6.2.0",
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
-    "@vitejs/plugin-react": "^5.0.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
   },
   "engines": {
     "node": ">=20"
