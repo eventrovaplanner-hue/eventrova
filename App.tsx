@@ -8,6 +8,8 @@ import PaymentModal from './PaymentModal';
 
 import { HostedEvent } from './types';
 import * as XLSX from 'xlsx';
+
+const features = [
   {
     icon: <Clock className="h-6 w-6" />,
     title: "5-Minute Planning",
