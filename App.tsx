@@ -2,9 +2,9 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Clock, Sparkles, DollarSign, Zap, Github, Twitter, Linkedin, Lock, History, Calendar, Users as UsersIcon, Trophy, Download } from 'lucide-react';
-import { EventPlanner } from './components/EventPlanner';
-import { WaitlistForm } from './components/WaitlistForm';
-import { PaymentModal } from './components/PaymentModal';
+import { EventPlanner } from './EventPlanner';
+import { WaitlistForm } from './WaitlistForm';
+import { PaymentModal } from './PaymentModal';
 import { HostedEvent } from './types';
 import * as XLSX from 'xlsx';
 
